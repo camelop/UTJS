@@ -1,0 +1,22 @@
+加入MainWindow的2个Private成员函数:
+bool ModifyTrain(const Train &trainToMod);
+void WriteLog(QString newLog);
+
+以上2个函数的实现：
+bool MainWindow::ModifyTrain(const Train &trainToMod) {
+    Train newTrain(trainToMod);
+    auto it = trains.find(newTrain);
+    if (it == trains.end()) return false;
+    if (it->sold) return false;
+    trains.erase(it);
+    newTrain.sold = false;
+    newTrain.sale = true;
+    trains.insert(newTrain);
+    return true;
+}
+void MainWindow::WriteLog(QString newLog) {
+    std::ofstream fout;
+    fout.open("log.txt", std::ios::app);
+    fout << newLog.toStdString() << std::endl;
+    fout.close();
+}
