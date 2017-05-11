@@ -20,3 +20,16 @@ void MainWindow::WriteLog(QString newLog) {
     fout << newLog.toStdString() << std::endl;
     fout.close();
 }
+
+----------------------------------------------------------------
+
+在 ujst_classed.hpp 中
+Class Date 加入 Public 成员函数:
+QString toQString() {
+    QString ret;
+    ret = QString("%1").arg(year, 4, 10, QChar('0')) + "-" + \
+          QString("%1").arg(month, 2, 10, QChar('0')) + "-" + \
+          QString("%1").arg(day, 2, 10, QChar('0'));
+    return ret;
+}
+
