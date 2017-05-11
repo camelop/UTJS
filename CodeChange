@@ -33,3 +33,150 @@ QString toQString() {
     return ret;
 }
 
+--------------------------------------------------------------------
+
+void AVeryGoodFunction() {
+    std::stringstream ss;
+    ii.resize(0);
+    Bint mode;
+    sstream >> mode;
+    switch (mode) {
+    case 1: {//Register
+        User userToReg;
+        sstream >> userToReg;
+        bool boolRet = RegisterUser(userToReg);
+        ss << boolRet;
+        if (boolRet) WriteLog("RegisterUser " + QString(QLatin1String(userToReg.id)));
+        break;
+    }
+    case 2: {//Login
+        User userLogin, userReturn;
+        userReturn = Login(userLogin);
+        ss << userReturn;
+        if (strcmp(userReturn.hashSalt, "success") == 0)
+            WriteLog("UserLogin " + QString(QLatin1String(userLogin.id)));
+        break;
+    }
+    case 3: {//Change Password
+        User userToChg;
+        sstream >> userToChg;
+        bool boolRet = ChangePassWord(userToChg);
+        ss << boolRet;
+        if (boolRet) WriteLog("UserChangePassword " + QString(QLatin1String(userToChg.id)));
+        break;
+    }
+    case 4: {//Query Own Tickets
+        Bchar<17> id;
+        sstream >> id;
+        sjtu::vector<Ticket> ret = GetTicketByUserId(id);
+        ss << ret;
+        WriteLog("QueryUserTickets " + QString(QLatin1String(id)));
+        break;
+    }
+    case 5: {//Query Trains
+        TicketQuery ticketToQue;
+        sstream >> ticketToQue;
+        sjtu::vector<Train> ret = QueryTicket(ticketToQue);
+        ss << ret;
+        WriteLog("QueryTrain in " + ticketToQue.date.toQString() + \
+                 " from " + QString(QLatin1String(ticketToQue.fromStationId)) + \
+                 " to " + QString(QLatin1String(ticketToQue.toStationId)));
+        break;
+    }
+    case 6: {//Buy Ticket
+        Ticket ticketToBuy;
+        sstream >> ticketToBuy;
+        bool boolRet = BuyTicket(ticketToBuy);
+        ss << boolRet;
+        if (boolRet) WriteLog("User " + QString(QLatin1String(ticketToBuy.userId)) + \
+                              " buys " + QString::num(ticketToBuy.num) + " ticket(s) of " + \
+                              ticketToBuy.date.toQString() + " from " + \
+                              QString(QLatin1String(ticketToBuy.fromStationId)) + " to " + \
+                              QString(QLatin1String(ticketToBuy.toStationId)));
+        break;
+    }
+    case 7: {//Cancel Ticket
+        Ticket ticketToCan;
+        sstream >> ticketToCan;
+        bool boolRet = CancelTicket(ticketToCan);
+        ss << boolRet;
+        if (boolRet) WriteLog("User " + QString(QLatin1String(ticketToCan.userId)) + \
+                              " cancels " + QString::num(ticketToCan.num) + " ticket(s) of " + \
+                              ticketToCan.date.toQString() + " from " + \
+                              QString(QLatin1String(ticketToCan.fromStationId)) + " to " + \
+                              QString(QLatin1String(ticketToCan.toStationId)));
+        break;
+    }
+    case 8: {//Add Train
+        Train trainToAdd;
+        sstream >> trainToAdd;
+        bool boolRet = AddTrain(trainToAdd);
+        ss << boolRet;
+        if (boolRet) WriteLog("AddTrain " + QString(QLatin1String(trainToAdd.id) + " of " + \
+                              trainToAdd.date.toQString()));
+        break;
+    }
+    case 9: {//Modify Train
+        Train trainToMod;
+        sstream >> trainToMod;
+        bool boolRet = ModifyTrain(trainToMod);
+        ss << boolRet;
+        if (boolRet) WriteLog("ModifyTrain " + QString(QLatin1String(trainToMod.id) + " of " + \
+                              trainToMod.date.toQString()));
+        break;
+    }
+    case 10: {//Delete Train
+        Bchar<13> trainId;
+        Train trainToDel;
+        strcpy(trainToDel.id, Bchar<13>);
+        bool boolRet = DeleteTrain(trainToDel);
+        ss << boolRet;
+        if (boolRet) WriteLog("DeleteTrain " + QString(QLatin1String(trainToDel.id) + " of " + \
+                              trainToDel.date.toQString()));
+        break;
+    }
+    case 11: {//Start Train Sale
+        Bchar<13> trainId;
+        Train trainToChg;
+        strcpy(trainToChg.id, Bchar<13>);
+        bool boolRet = StartTrainSale(trainToChg);
+        ss << boolRet;
+        if (boolRet) WriteLog("StartTrainSale " + QString(QLatin1String(trainToChg.id) + " of " + \
+                              trainToChg.date.toQString()));
+        break;
+    }
+    case 12: {//Stop Train Sale
+        Bchar<13> trainId;
+        Train trainToChg;
+        strcpy(trainToChg.id, Bchar<13>);
+        bool boolRet = StopTrainSale(trainToChg);
+        ss << boolRet;
+        if (boolRet) WriteLog("StopTrainSale " + QString(QLatin1String(trainToChg.id) + " of " + \
+                              trainToChg.date.toQString()));
+        break;
+    }
+    case 13: {//Get User Info
+        Bchar<17> userId;
+        sstream >> userId;
+        User userToQue;
+        strcpy(userToQue.id, userId);
+        auto it = users.find(userToQue);
+        vector<Ticket> vectorRet;
+        if (it == users.end()) {
+            strcpy(userToQue.hashSalt, "failed");
+            ss << userToQue << vectorRet;
+            break;
+        }
+        strcpy(userToQue.hashSalt, "success");
+        strcpy(userToQue.name, it->name);
+        vectorRet = GetTicketByUserId(userId);
+        ss << userToQue << vectorRet;
+        WriteLog("GetUserInfo " + QString(QLatin1String(userId));
+        break;
+    }
+    case 14: {//Get Log
+        break;
+    }
+    }
+    ii.append(QByteArray(ss.str().c_str(),ss.str().length()));
+}
