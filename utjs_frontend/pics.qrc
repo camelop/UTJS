@@ -1,0 +1,43 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>arrow_right_907px_1195916_easyicon.net.png</file>
+    <file>wild.png</file>
+    <file>arrow_triangle_right_alt_533px_1143320_easyicon.net.png</file>
+    <file>book_1068px_1190584_easyicon.net.png</file>
+    <file>button.png</file>
+    <file>Button_circle_warning_195px_1198033_easyicon.net.png</file>
+    <file>Cancel_110px_1190738_easyicon.net.png</file>
+    <file>Cancel_110px_1190738_easyicon.net_副本.png</file>
+    <file>circle.png</file>
+    <file>continueto.png</file>
+    <file>crying_baby_512px_1168444_easyicon.net.png</file>
+    <file>exchange_307px_1154625_easyicon.net.png</file>
+    <file>font-61444.png</file>
+    <file>frame_512px_1170265_easyicon.net.png</file>
+    <file>frame_1365px_1200174_easyicon.net.png</file>
+    <file>happy_431px_1161500_easyicon.net.png</file>
+    <file>happy_489px_1161498_easyicon.net.png</file>
+    <file>login_783px_1207631_easyicon.net.png</file>
+    <file>long_arrow_right_934px_1190639_easyicon.net.png</file>
+    <file>man_512px_1174196_easyicon.net.png</file>
+    <file>price_tag_939px_1207370_easyicon.net.png</file>
+    <file>Right_Round_183px_1190967_easyicon.net.png</file>
+    <file>sad_388px_1161515_easyicon.net.png</file>
+    <file>sad_401px_1161518_easyicon.net.png</file>
+    <file>sad_1326px_1147434_easyicon.net.png</file>
+    <file>sad_1326px_1147435_easyicon.net.png</file>
+    <file>scared_431px_1161519_easyicon.net.png</file>
+    <file>search.png</file>
+    <file>Settings_1366px_1181299_easyicon.net.png</file>
+    <file>shutdown_512px_1168703_easyicon.net.png</file>
+    <file>smile_700px_1176289_easyicon.net.png</file>
+    <file>start.png</file>
+    <file>stop_1066px_1147985_easyicon.net.png</file>
+    <file>ticket_1334px_1142530_easyicon.net.png</file>
+    <file>Train_342px_1198796_easyicon.net.png</file>
+    <file>train_rail_152px_1189844_easyicon.net.png</file>
+    <file>train_track_76px_1116835_easyicon.net.png</file>
+    <file>user_alt_1_256px_1075122_easyicon.net.png</file>
+    <file>yes_200px_1188209_easyicon.net.png</file>
+  </qresource>
+</RCC>

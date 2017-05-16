@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu_Admin</class>
+ <widget class="QWidget" name="Menu_Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>376</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/pic/user_alt_1_256px_1075122_easyicon.net.png);</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>671</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>671</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>671</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>131</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>131</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>管理员</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="ChangeTrain">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>241</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>241</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改运行计划</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/pic/Train_342px_1198796_easyicon.net.png</normaloff>:/pic/Train_342px_1198796_easyicon.net.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="ModifySell">
+   <property name="geometry">
+    <rect>
+     <x>42</x>
+     <y>195</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>241</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>241</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修改发售信息</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/pic/price_tag_939px_1207370_easyicon.net.png</normaloff>:/pic/price_tag_939px_1207370_easyicon.net.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackLogButton">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>55</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/pic/shutdown_512px_1168703_easyicon.net.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="ModifyUser">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>280</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>241</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>241</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;微软雅黑&quot;;</string>
+   </property>
+   <property name="text">
+    <string>管理用户信息</string>
+   </property>
+   <property name="icon">
+    <iconset resource="pics.qrc">
+     <normaloff>:/pic/man_512px_1174196_easyicon.net.png</normaloff>:/pic/man_512px_1174196_easyicon.net.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>110</y>
+     <width>251</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>251</width>
+     <height>211</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>251</width>
+     <height>211</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image:url(:/pic/circle.png)</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>90</y>
+     <width>20</width>
+     <height>280</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>20</width>
+     <height>280</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>20</width>
+     <height>280</height>
+    </size>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="pics.qrc"/>
+ </resources>
+ <connections/>
+</ui>
