@@ -36,32 +36,32 @@ Apple store 中国官方网站（*Unbelivable Tricking Joy System* Team）
 ### 2.2 使用教程
 #### 2.3.1 用户使用
 - 欢迎画面
-![gid](http://littleround.cn/pictures/1.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/1.gif)
 - 登录
-![gid](http://littleround.cn/pictures/2.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/2.gif)
 - 已购车票、退票
-![gid](http://littleround.cn/pictures/3.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/3.gif)
 - 查票、购票
-![gid](http://littleround.cn/pictures/5.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/5.gif)
 - 修改密码
-![gid](http://littleround.cn/pictures/6.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/6.gif)
 #### 2.3.2 管理员客户端使用
 - 管理员界面
-![gid](http://littleround.cn/pictures/7.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/7.gif)
 - 修改运行计划、修改发售信息
-![gid](http://littleround.cn/pictures/8.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/8.gif)
 - 管理用户信息
-![gid](http://littleround.cn/pictures/9.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/9.gif)
 
 #### 2.3.3 管理员服务器端使用
 - 客户端一览
-![gid](http://littleround.cn/pictures/10.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/10.gif)
 - 日志系统
-![gid](http://littleround.cn/pictures/11.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/11.gif)
 - 服务器启动
-![gid](http://littleround.cn/pictures/12.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/12.gif)
 - 从文本导入火车、订票信息
-![gid](http://littleround.cn/pictures/13.gif)
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/13.gif)
 
 ### 2.3 性能
 
