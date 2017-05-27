@@ -1,5 +1,5 @@
 # UTJS
-Universal Train Journey System / 
+Universal Train Journey System /   
 Unbelievable Tricking Joy System ;-)
 
 ## 1. 引言
