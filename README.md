@@ -1,11 +1,5 @@
-# UTJS： Universal Train Journey System 
-
-标签（空格分隔）： 数据结构大作业 火车订票系统 GUI 前后端分离 STLite
-
----
-[toc]
-
----
+# UTJS
+Universal Train Journey System / Unbelievable Tricking Joy System ;-)
 
 ## 1. 引言
 >**And God said, Let there be light: and there was light.**
@@ -13,7 +7,7 @@ the third verse of the Book of Genesis
 ### 1.1 项目简介
 
 **通用火车旅行系统(Universal Train Journey System)**是utjs小组提交的[ACM班2017年数据结构课](https://acm.sjtu.edu.cn/wiki/Data_Structures_2017)的大作业项目。
-![logo](http://littleround.cn/pictures/logo.png)
+![logo](https://github.com/Evensgn/UTJS/raw/master/manual_images/logo.png)
 
 ### 1.2 项目结构
 项目实现了包含**自行编写的数据结构库**，**GUI**，**前后端分离**，**用户管理**等模块以提供用户完整的火车订票体验。
@@ -40,33 +34,33 @@ Apple store 中国官方网站（*Unbelivable Tricking Joy System* Team）
 
 ### 2.2 使用教程
 #### 2.3.1 用户使用
-- 欢迎画面
-![gid](http://littleround.cn/pictures/1.gif)
-- 登录
-![gid](http://littleround.cn/pictures/2.gif)
-- 已购车票、退票
-![gid](http://littleround.cn/pictures/3.gif)
-- 查票、购票
-![gid](http://littleround.cn/pictures/5.gif)
-- 修改密码
-![gid](http://littleround.cn/pictures/6.gif)
+- 欢迎画面   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/1.gif)
+- 登录   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/2.gif)
+- 已购车票、退票   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/3.gif)
+- 查票、购票   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/5.gif)
+- 修改密码   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/6.gif)
 #### 2.3.2 管理员客户端使用
-- 管理员界面
-![gid](http://littleround.cn/pictures/7.gif)
-- 修改运行计划、修改发售信息
-![gid](http://littleround.cn/pictures/8.gif)
-- 管理用户信息
-![gid](http://littleround.cn/pictures/9.gif)
+- 管理员界面   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/7.gif)
+- 修改运行计划、修改发售信息   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/8.gif)
+- 管理用户信息   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/9.gif)
 
 #### 2.3.3 管理员服务器端使用
-- 客户端一览
-![gid](http://littleround.cn/pictures/10.gif)
-- 日志系统
-![gid](http://littleround.cn/pictures/11.gif)
-- 服务器启动
-![gid](http://littleround.cn/pictures/12.gif)
-- 从文本导入火车、订票信息
-![gid](http://littleround.cn/pictures/13.gif)
+- 客户端一览   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/10.gif)
+- 日志系统   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/11.gif)
+- 服务器启动   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/12.gif)
+- 从文本导入火车、订票信息   
+![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/13.gif)
 
 ### 2.3 性能
 
