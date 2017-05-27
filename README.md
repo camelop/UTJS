@@ -1,11 +1,6 @@
-# UTJS： Universal Train Journey System 
-
-标签（空格分隔）： 数据结构大作业 火车订票系统 GUI 前后端分离 STLite
-
----
-[toc]
-
----
+# UTJS
+Universal Train Journey System / 
+Unbelievable Tricking Joy System ;-)
 
 ## 1. 引言
 >**And God said, Let there be light: and there was light.**
