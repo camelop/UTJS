@@ -8,7 +8,7 @@ the third verse of the Book of Genesis
 ### 1.1 项目简介
 
 **通用火车旅行系统(Universal Train Journey System)**是utjs小组提交的[ACM班2017年数据结构课](https://acm.sjtu.edu.cn/wiki/Data_Structures_2017)的大作业项目。
-![logo](https://github.com/Evensgn/UTJS/manual_images/logo.png)
+![logo](https://github.com/Evensgn/UTJS/raw/master/manual_images/logo.png)
 
 ### 1.2 项目结构
 项目实现了包含**自行编写的数据结构库**，**GUI**，**前后端分离**，**用户管理**等模块以提供用户完整的火车订票体验。
