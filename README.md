@@ -1,6 +1,5 @@
 # UTJS
-Universal Train Journey System /   
-Unbelievable Tricking Joy System ;-)
+Universal Train Journey System / Unbelievable Tricking Joy System ;-)
 
 ## 1. 引言
 >**And God said, Let there be light: and there was light.**
@@ -35,32 +34,32 @@ Apple store 中国官方网站（*Unbelivable Tricking Joy System* Team）
 
 ### 2.2 使用教程
 #### 2.3.1 用户使用
-- 欢迎画面
+- 欢迎画面   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/1.gif)
-- 登录
+- 登录   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/2.gif)
-- 已购车票、退票
+- 已购车票、退票   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/3.gif)
-- 查票、购票
+- 查票、购票   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/5.gif)
-- 修改密码
+- 修改密码   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/6.gif)
 #### 2.3.2 管理员客户端使用
-- 管理员界面
+- 管理员界面   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/7.gif)
-- 修改运行计划、修改发售信息
+- 修改运行计划、修改发售信息   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/8.gif)
-- 管理用户信息
+- 管理用户信息   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/9.gif)
 
 #### 2.3.3 管理员服务器端使用
-- 客户端一览
+- 客户端一览   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/10.gif)
-- 日志系统
+- 日志系统   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/11.gif)
-- 服务器启动
+- 服务器启动   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/12.gif)
-- 从文本导入火车、订票信息
+- 从文本导入火车、订票信息   
 ![gid](https://github.com/Evensgn/UTJS/raw/master/manual_images/13.gif)
 
 ### 2.3 性能
